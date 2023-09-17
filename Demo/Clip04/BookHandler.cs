@@ -5,7 +5,7 @@ namespace Demo.Clip04
 {
     class BookHandler
     {
-        public void Handle(Book product)
+        public void Handle(IBook product)
         {
             Size slimCdCase = new Size(
                 142 * Length.Millimeter,

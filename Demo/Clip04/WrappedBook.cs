@@ -2,10 +2,9 @@
 
 namespace Demo.Clip04
 {
-    class WrappedBook : Book
+    class WrappedBook : BookDecorator
     {
-        public WrappedBook(Book other) 
-            : base(other)
+        public WrappedBook(IBook other) : base(other)
         {
         }
 
@@ -15,5 +14,6 @@ namespace Demo.Clip04
                     7 * Length.Millimeter,
                     7 * Length.Millimeter,
                     7 * Length.Millimeter));
+        
     }
 }

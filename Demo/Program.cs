@@ -12,8 +12,8 @@ namespace Demo
         {
             // new Clip01Demo().Run();
             // new Clip02Demo().Run();
-            new Clip03Demo().Run();
-            // new Clip04Demo().Run();
+            // new Clip03Demo().Run();
+            new Clip04Demo().Run();
 
             // Console.Write("Press ENTER to exit. . . ");
             // Console.ReadLine();

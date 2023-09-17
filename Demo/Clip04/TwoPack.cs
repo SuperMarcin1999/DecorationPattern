@@ -2,16 +2,14 @@
 
 namespace Demo.Clip04
 {
-    class TwoPack : Book
+    class TwoPack : BookDecorator
     {
-        public TwoPack(Book other) 
-            : base(other)
+        public TwoPack(IBook other) : base(other) { }
+        public override Size GetDimensions(Size propaganda)
         {
-        }
-
-        public override Size GetDimensions(Size propaganda) =>
-            base.GetDimensions(Size.Zero)
+            return base.GetDimensions(Size.Zero)
                 .ScaleHeight(2)
                 .AddToTop(propaganda);
+        }
     }
 }
