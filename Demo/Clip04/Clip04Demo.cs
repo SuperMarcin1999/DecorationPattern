@@ -9,15 +9,15 @@ namespace Demo.Clip04
 
         protected override void Implementation()
         {
-            IBook bareBook = new PrintedBook("Design Patterns", new Size(188*mm, 239*mm, 28*mm));
-            IBook product = new TwoPack(bareBook);
+            var buyer = new BookHandler();
+            var dispatcher = new BookHandler();
 
-            BookHandler buyer = new BookHandler();
-            buyer.Handle(product);
+            var encyklopedia = new PrintedBook("Encyklopedia", new Size(250*mm, 300*mm, 60*mm));
+            buyer.Handle(encyklopedia);
 
-            IBook wrappedProduct = new WrappedBook(product);
-            BookHandler dispatcher = new BookHandler();
-            dispatcher.Handle(wrappedProduct);
+            var szesciopakEncyklopedii = new Szczesciopak(encyklopedia);
+            var zapakowanaEncyklopedia = new WrappedBook(szesciopakEncyklopedii);
+            dispatcher.Handle(zapakowanaEncyklopedia);
         }
     }
 }

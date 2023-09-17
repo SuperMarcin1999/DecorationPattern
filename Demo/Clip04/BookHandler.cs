@@ -13,7 +13,7 @@ namespace Demo.Clip04
                 5 * Length.Millimeter);
 
             Size size = product.GetDimensions(slimCdCase);
-            Console.WriteLine($"Dealing with {product.GetType().Name} of size {size}");
+            Console.WriteLine($"Dealing with {product.GetType().Name} (title: {product.Title}) of size {size}");
         }
     }
 }
