@@ -7,6 +7,7 @@ namespace Demo.Clip03
     {
         public void Handle(Book product)
         {
+            // Zakladamy ze zawsze przy handle, robimy tą operacje
             Size slimCdCase = new Size(
                 142 * Length.Millimeter,
                 125 * Length.Millimeter,
