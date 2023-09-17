@@ -1,0 +1,14 @@
+E:\Wzorce\Projekty\DecorationPattern\Demo\bin\Debug\net7.0\Demo.exe
+E:\Wzorce\Projekty\DecorationPattern\Demo\bin\Debug\net7.0\Demo.deps.json
+E:\Wzorce\Projekty\DecorationPattern\Demo\bin\Debug\net7.0\Demo.runtimeconfig.json
+E:\Wzorce\Projekty\DecorationPattern\Demo\bin\Debug\net7.0\Demo.dll
+E:\Wzorce\Projekty\DecorationPattern\Demo\bin\Debug\net7.0\Demo.pdb
+E:\Wzorce\Projekty\DecorationPattern\Demo\obj\Debug\net7.0\Demo.GeneratedMSBuildEditorConfig.editorconfig
+E:\Wzorce\Projekty\DecorationPattern\Demo\obj\Debug\net7.0\Demo.AssemblyInfoInputs.cache
+E:\Wzorce\Projekty\DecorationPattern\Demo\obj\Debug\net7.0\Demo.AssemblyInfo.cs
+E:\Wzorce\Projekty\DecorationPattern\Demo\obj\Debug\net7.0\Demo.csproj.CoreCompileInputs.cache
+E:\Wzorce\Projekty\DecorationPattern\Demo\obj\Debug\net7.0\Demo.dll
+E:\Wzorce\Projekty\DecorationPattern\Demo\obj\Debug\net7.0\refint\Demo.dll
+E:\Wzorce\Projekty\DecorationPattern\Demo\obj\Debug\net7.0\Demo.pdb
+E:\Wzorce\Projekty\DecorationPattern\Demo\obj\Debug\net7.0\Demo.genruntimeconfig.cache
+E:\Wzorce\Projekty\DecorationPattern\Demo\obj\Debug\net7.0\ref\Demo.dll

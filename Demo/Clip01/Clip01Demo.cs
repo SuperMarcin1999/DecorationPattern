@@ -11,12 +11,13 @@ namespace Demo.Clip01
         {
             Book product = new Book("Design patterns" ,
                 new Size(188 * mm,239 * mm,28 * mm));
-
-            Buyer buyer = new Buyer();
+            
+            var buyer = new BookHandler();
             buyer.Handle(product);
 
-            var employee = new Dispatcher();
-            employee.Handle(product);
+            var wrappedProduct = new WrappedBook(product);
+            var dispatcher = new BookHandler();
+            dispatcher.Handle(wrappedProduct);
         }
     }
 }
